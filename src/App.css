@@ -7,10 +7,3 @@
   font-family: 'Montserrat', sans-serif;
   overflow: none;
 }
-
-.homeContainer {
-  background-image: url("./img/background.jpg");
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
