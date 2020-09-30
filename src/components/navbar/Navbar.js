@@ -19,7 +19,7 @@ function Navbar() {
             <Router>
                 <div className="navbar">
                     <div className="navbar-container">
-                        <Link to='/home' className='navbar-logo'>
+                        <Link to='/' className='navbar-logo'>
                             <img src={logo} alt="logo" className='navbar-logo-emanbau' />
                         </Link>
                         <Link to='/' className="navbar-bars">

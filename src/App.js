@@ -24,8 +24,8 @@ function App() {
             <Contact />
           </Route>
         </Switch>
+        <HomePage />
       </Router>
-      <HomePage />
     </div>
   );
 }
