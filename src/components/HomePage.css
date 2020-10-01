@@ -10,7 +10,7 @@
   }
 
 .helloContainer {
-  z-index: 2;
+  z-index: 5;
 }
 
 .helloContainerText {
@@ -19,14 +19,26 @@
   color: #2A2A2A;
   display: flex;
   justify-content: center;
-  margin-top: 11em;
-  margin-right: 8.7em;
+  letter-spacing: .2em;
+  margin-top: 12em;
+  margin-right: 8.55em;
+  z-index: 5;
 }
 
 .emanAnimation {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1em;
-  margin-right: .8em;
+  margin-top: 1.3em;
+  margin-right: 0em;
+  z-index: 5;
+}
+
+.shapeDiv {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 2;
+  font-size: 16px;
+  overflow: none;
 }
