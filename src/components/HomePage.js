@@ -2,6 +2,9 @@ import React from 'react'
 import './HomePage.css'
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import './BackgroundShapes.css'
+import { BackgroundShapes } from './BackgroundShapes';
+import { BackgroundShapes2 } from './BackgroundShapes2';
 
 function HomePage() {
 
@@ -23,6 +26,11 @@ function HomePage() {
     return (
         <div className="homeContainer">
             <div className="helloContainer">
+                {BackgroundShapes.map((title, item) => {
+                    return (
+                        <img src={item.src} alt="" key={title} className={item.cName} />
+                    )
+                })}
                 <h1 ref={el => (line1 = el)} className="helloContainerText">hello im</h1>
                 <div className="emanAnimation">
                     <svg ref={el => (line2 = el)} id="logo" width="383" height="67" viewBox="0 0 383 67" fill="none" xmlns="http://www.w3.org/2000/svg">
