@@ -34,11 +34,20 @@
   z-index: 5;
 }
 
+.shapeIntro {
+  overflow: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .shapeDiv {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: absolute;
   z-index: 2;
   font-size: 16px;
   overflow: none;
+  background-repeat: no-repeat;
+
 }
