@@ -38,8 +38,8 @@ function Shapes() {
             display: 'inline-block',
             position: 'relative',
             zIndex: '3',
-            marginTop: '40em',
-            marginLeft: '68em',
+            marginTop: '21em',
+            marginLeft: '84em',
         },
         polygon1: {
             display: 'inline-block',
@@ -59,8 +59,8 @@ function Shapes() {
             display: 'inline-block',
             position: 'relative',
             zIndex: '3',
-            marginTop: '21em',
-            marginLeft: '84em',
+            marginTop: '40em',
+            marginLeft: '68em',
         },
         rectangle3: {
             display: 'inline-block',
