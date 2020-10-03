@@ -3,6 +3,7 @@ import './HomePage.css'
 import {  useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Shapes from './Shapes';
+import Shapes2 from './Shapes2';
 
 function HomePage() {
 
@@ -24,6 +25,7 @@ function HomePage() {
     return (
         <div className="homeContainer">
             <Shapes />
+            <Shapes2 />
             <div className="helloContainer">
                 <h1 ref={el => (line1 = el)} className="helloContainerText">hello im</h1>
                 <div className="emanAnimation">
