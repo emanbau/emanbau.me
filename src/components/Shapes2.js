@@ -98,8 +98,8 @@ function Shapes() {
                             xFactor: 0.11,
                             yFactor: -0.10,
                             springSettings: {
-                                stiffness: 40,
-                                damping: 75
+                                stiffness: 30,
+                                damping: 90
                             }
                         }}>
                             <img src={require('./BackgroundShapesImg2/Ellipse2.png')} alt="" />
@@ -135,7 +135,7 @@ function Shapes() {
                             yFactor: 0.06,
                             springSettings: {
                                 stiffness: 35,
-                                damping: 30
+                                damping: 50
                             }
                         }}>
                             <img src={require('./BackgroundShapesImg2/Polygon3.png')} alt="" />
@@ -146,7 +146,7 @@ function Shapes() {
                             xFactor: 0.08,
                             yFactor: -0.07,
                             springSettings: {
-                                stiffness: 50,
+                                stiffness: 30,
                                 damping: 90
                             }
                         }}>
