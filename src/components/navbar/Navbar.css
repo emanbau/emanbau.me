@@ -15,6 +15,7 @@
 @media (min-width: 601px) {
     .navbar-logo {
         margin-left: 10em;
+        user-select: none;
     }
 }
 
@@ -22,6 +23,7 @@
     .navbar-logo {
         float: left;
         margin-left: 2em;
+        user-select: none;
     }
 }
 
