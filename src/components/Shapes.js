@@ -10,7 +10,7 @@ function Shapes() {
 
     useEffect(() => {
         gsap.from([image1], 7, {
-            delay: .9,
+            delay: 2,
             opacity: 0,
             ease: "power2.out",
             y: 90,

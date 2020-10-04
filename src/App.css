@@ -7,3 +7,22 @@
   font-family: 'Montserrat', sans-serif;
   overflow: none;
 }
+
+.appContainer {
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.loadingScreenContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loadingScreen {
+  transform: scale(3);
+}

@@ -12,7 +12,9 @@
     "react-icons": "^3.11.0",
     "react-parallax-mousemove": "^1.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.0",
+    "styled-loaders-react": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

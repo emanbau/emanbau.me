@@ -8,7 +8,7 @@ import Shapes2 from './Shapes2';
 function HomePage() {
 
     let line1 = useRef(null);
-    let line2 = useRef(null);   
+    let line2 = useRef(null);      
 
     useEffect(() => {
         gsap.from([line1, line2], 1.75, {
