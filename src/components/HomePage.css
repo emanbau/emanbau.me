@@ -7,21 +7,21 @@
   position: absolute;
   height: 100%;
   z-index: 1;
-  }
+  padding: 0;
+  margin: 0;
+}
 
 
 
 @media only screen and (min-width: 421px) and (max-width: 500px) {
   .helloContainer {
     transform: scale(.75);
-    overflow: none;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .helloContainer {
     transform: scale(.65);
-    overflow: none;
   }
 }
 
@@ -140,6 +140,7 @@
   text-shadow: 4px 4px 3px rgba(42, 42, 42, 0.2);
   user-select: none;
 }
+
 @media only screen and (max-width: 1919px) {
   .shapesBigContainer {
     display: none;
@@ -147,7 +148,6 @@
 }
 
 .shapeIntro {
-  overflow: none;
   position: absolute;
 }
 
@@ -155,7 +155,6 @@
   position: absolute;
   z-index: 2;
   font-size: 16px;
-  overflow: none;
   user-select: none;
 }
 

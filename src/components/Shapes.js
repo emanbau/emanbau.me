@@ -22,7 +22,8 @@ function Shapes() {
             position: 'absolute',
             zIndex: '2',
             fontSize: '16px',
-            overflow: 'none',
+            width: '100%',
+            height: '100%',
         },
         
         circle1: {
