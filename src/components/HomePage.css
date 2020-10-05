@@ -9,7 +9,7 @@
   z-index: 1;
   padding: 0;
   margin: 0;
-}
+  }
 
 
 
@@ -110,6 +110,22 @@
 }
 
 @media only screen and (min-width: 1000px) and (min-height: 1301px) {
+  .helloContainerText {
+    font-size: 30px;
+    font-weight: 500;
+    color: #2A2A2A;
+    display: flex;
+    justify-content: center;
+    letter-spacing: .2em;
+    margin-top: 7em;
+    margin-right: 8.55em;
+    z-index: 5;
+    user-select: none;  
+    white-space: nowrap;  
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1920px) and (min-height: 800px) and (max-height: 1000px) {
   .helloContainerText {
     font-size: 30px;
     font-weight: 500;
