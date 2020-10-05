@@ -14,6 +14,7 @@
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
+  overflow: none;
 }
 
 .loadingScreenContainer {

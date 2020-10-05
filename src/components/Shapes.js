@@ -19,8 +19,6 @@ function Shapes() {
 
     const style = {
         parallaxOutter: {
-            height: '100vh',
-            width: '100vw',
             position: 'absolute',
             zIndex: '2',
             fontSize: '16px',
