@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../App.css';
+import '../pages/Home.css'
 import HALO from 'vanta/dist/vanta.halo.min'
+import Navbar from '../components/navbar/Navbar';
+
 
 const VantaTest = (props) => {
   const [vantaEffect, setVantaEffect] = useState(0)
@@ -16,17 +19,24 @@ const VantaTest = (props) => {
         minWidth: 200.00,
         baseColor: 0xd70dcb,
         backgroundColor: 0x1e1e1e,
-        amplitudeFactor: 2.10,
-        xOffset: 0.12,
-        size: 2.20
+        amplitudeFactor: 2.50,
+        xOffset: 0.19,
+        yOffset: 0.02,
+        size: 2.80
       }))
     }
     return () => {
       if (vantaEffect) vantaEffect.destroy()
     }
   }, [vantaEffect])
-  return <div ref={myRef}>
-  </div>
+  return (
+      <div className ='vanta-container'>
+        <div className='vanta-screen' ref={myRef} />
+        <div className='navbar-container'>
+          <Navbar />
+        </div>
+      </div>
+  )
 }
 
 export default VantaTest;
