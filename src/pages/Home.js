@@ -6,6 +6,9 @@ function Home() {
     return (
         <div className='home-container'>
             <VantaTest />
+            <div className='home-text-container'>
+                
+            </div>
         </div>
     )
 }

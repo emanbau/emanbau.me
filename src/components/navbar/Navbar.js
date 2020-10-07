@@ -30,10 +30,18 @@ function Navbar() {
                                     <AiIcons.AiOutlineClose />
                                 </Link>
                             </li>
-                            <li className="item-link">About</li>
-                            <li className="item-link">Contact</li>
-                            <li className="item-link">Portfolio</li>
-                            <li className="item-link">Projects</li>
+                            <Link to='/about' className='nav-link'> <li className="item-link">About</li> </Link>
+                            <Link to='/contact' className='nav-link'> <li className="item-link">Contact</li> </Link>
+                            <Link to='/portfolio' className='nav-link'> <li className="item-link">Portfolio</li> </Link>
+                            <Link to='/projects' className='nav-link'> <li className="item-link">Projects</li> </Link>
+                        </ul>
+                    </div>
+                    <div className="nav-items-container">
+                        <ul className="nav-items-list">
+                            <Link to='/about' className='nav-items'> <li className="items">About</li> </Link>
+                            <Link to='/contact' className='nav-items'> <li className="items">Contact</li> </Link>
+                            <Link to='/portfolio' className='nav-items'> <li className="items">Portfolio</li> </Link>
+                            <Link to='/projects' className='nav-items'> <li className="items">Projects</li> </Link>   
                         </ul>
                     </div>
                 </div>

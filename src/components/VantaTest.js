@@ -8,8 +8,24 @@ import Navbar from '../components/navbar/Navbar';
 const VantaTest = (props) => {
   const [vantaEffect, setVantaEffect] = useState(0)
   const myRef = useRef(null)
+  const mq = window.matchMedia("(max-width: 600px)");
   useEffect(() => {
-    if (!vantaEffect) {
+    if (!vantaEffect && mq.matches) {
+      setVantaEffect(HALO({
+        el: myRef.current,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        baseColor: 0xd70dcb,
+        backgroundColor: 0x1e1e1e,
+        amplitudeFactor: 2.50,
+        xOffset: 0.15,
+        yOffset: 0.02,
+        size: 2
+      }))
+    } else if (!vantaEffect) {
       setVantaEffect(HALO({
         el: myRef.current,
         mouseControls: true,
@@ -28,7 +44,7 @@ const VantaTest = (props) => {
     return () => {
       if (vantaEffect) vantaEffect.destroy()
     }
-  }, [vantaEffect])
+  }, [vantaEffect, mq.matches])
   return (
       <div className ='vanta-container'>
         <div className='vanta-screen' ref={myRef} />
