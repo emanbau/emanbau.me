@@ -13,6 +13,7 @@
     position: absolute;
     height: 100vh;
     width: 100%;
+    z-index: 1;
 }
 
 .vanta-screen {
@@ -21,6 +22,8 @@
     opacity: 0.4;
     height: 100vh;
     width: 100%;
+    z-index: 1;
+
 }
 
 
@@ -28,4 +31,39 @@
     position: absolute;
     height: 100vh;
     width: 100%;
+}
+
+.home-text-container {
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 1000px) {
+    .home-text {
+        color: #bebebe;
+        font-size: 85px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+    .home-text {
+        color: #bebebe;
+        font-size: 60px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .home-text {
+        color: #bebebe;
+        font-size: 45px;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
 }
