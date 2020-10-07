@@ -9,15 +9,15 @@ function Home() {
     return (
 
         <div className='home-container'>
-            <VantaTest />
             <div className='home-text-container'>
-                <TypedComponent strings={[
+                <TypedComponent className='typed-container' strings={[
                     'Developer.',
                     'Designer.',
                     'Student.'
                 ]}
                 />
             </div>
+            <VantaTest />
         </div>
     )
 }

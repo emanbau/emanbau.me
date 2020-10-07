@@ -19,7 +19,7 @@
 .vanta-screen {
     position: absolute;
     color: black;
-    opacity: 0.4;
+    opacity: 0.1;
     height: 100vh;
     width: 100%;
     z-index: 1;
@@ -34,7 +34,7 @@
 }
 
 .home-text-container {
-    z-index: 3;
+    z-index: 0;
     position: absolute;
     left: 50%;
     top: 45%;
@@ -43,27 +43,34 @@
 
 @media only screen and (min-width: 1000px) {
     .home-text {
-        color: #bebebe;
+        color: #cecece;
         font-size: 85px;
         letter-spacing: 3px;
         font-weight: 600;
+        user-select: none;
     }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 999px) {
     .home-text {
-        color: #bebebe;
+        color: #cecece;        
         font-size: 60px;
         letter-spacing: 3px;
         font-weight: 600;
+        user-select: none;
     }
 }
 
 @media only screen and (max-width: 599px) {
     .home-text {
-        color: #bebebe;
+        color: #cecece;        
         font-size: 45px;
         letter-spacing: 3px;
         font-weight: 600;
+        user-select: none;
     }
+}
+
+.typed-container {
+    position: absolute;
 }

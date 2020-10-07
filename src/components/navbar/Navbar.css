@@ -89,6 +89,7 @@
 @media only screen and (max-width: 749px) {
     .nav-items-container {
         display: none;
+        z-index: 4;
     }
 }
 
@@ -98,6 +99,7 @@
         position: absolute;
         overflow: hidden;
         bottom: 10vh;
+        z-index: 4;
     }
 }
 
