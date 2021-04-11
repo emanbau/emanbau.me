@@ -30,6 +30,7 @@ function Home() {
             <div className={css(styles.landingTextContainer)}>
                 <h1 className='heading'>Hey, I'm <span className='bold'>Eman</span>.</h1>
                 <p className='paragraph'>I’m a <span className='bold' ref={typedComponentRef} /> <br/> focusing on helping others build <br/> <span className="bold">meaningful</span> experiences. </p>
+                <a href='https://www.upwork.com/freelancers/~0144c5c1dc348b1f32' target="_blank" rel="noreferrer noopener" className='button'>Hire Me!</a>
             </div>
         </div>
     )

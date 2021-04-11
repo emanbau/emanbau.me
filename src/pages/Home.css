@@ -49,3 +49,22 @@
     font-size: 20px;
   }
 }
+
+.button {
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  border: solid 2px #1f1f1f;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #1f1f1f;
+  margin-top: 0.2em;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    font-size: 15px;
+  }
+}
