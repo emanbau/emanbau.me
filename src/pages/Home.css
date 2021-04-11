@@ -1,76 +1,39 @@
-.home-container {
-    background-image: url('./homeimg/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: none;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.landing-page-container {
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../assets/eman\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-
-.vanta-container {
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
+@media screen and (max-width: 767px) {
+  .landing-page-container {
+    justify-content: center;
+  }
 }
 
-.vanta-screen {
-    position: absolute;
-    color: black;
-    opacity: 0.1;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
-
+.heading {
+  color: #1f1f1f;
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  margin-bottom: 0.5em;
 }
 
-
-.navbar-container {
-    position: absolute;
-    height: 100vh;
-    width: 100%;
+.bold {
+  font-weight: 400;
 }
 
-.home-text-container {
-    z-index: 0;
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-}
-
-@media only screen and (min-width: 1000px) {
-    .home-text {
-        color: #cecece;
-        font-size: 85px;
-        letter-spacing: 3px;
-        font-weight: 600;
-        user-select: none;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 999px) {
-    .home-text {
-        color: #cecece;        
-        font-size: 60px;
-        letter-spacing: 3px;
-        font-weight: 600;
-        user-select: none;
-    }
-}
-
-@media only screen and (max-width: 599px) {
-    .home-text {
-        color: #cecece;        
-        font-size: 45px;
-        letter-spacing: 3px;
-        font-weight: 600;
-        user-select: none;
-    }
-}
-
-.typed-container {
-    position: absolute;
+.paragraph {
+  color: #1f1f1f;
+  font-family: "Karla", sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  margin-bottom: 0.5em;
 }
