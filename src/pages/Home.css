@@ -60,11 +60,11 @@
   border-radius: 20px;
   text-decoration: none;
   color: #1f1f1f;
-  margin-top: 0.2em;
+  margin-top: 0.5em;
 }
 
 @media screen and (max-width: 767px) {
   .button {
-    font-size: 15px;
+    font-size: 18px;
   }
 }
