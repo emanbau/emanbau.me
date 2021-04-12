@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 .home-page {
-  height: 200vh;
+  height: 275vh;
 }
 
 .landing-page-container {
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 767px) {
   .heading {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
@@ -47,11 +47,13 @@
   font-weight: 200;
   font-size: 32px;
   margin-bottom: 0.5em;
+  width: 500px;
 }
 
 @media screen and (max-width: 767px) {
   .paragraph {
-    font-size: 21px;
+    font-size: 24px;
+    width: 300px;
   }
 }
 
@@ -213,6 +215,6 @@
 
 @media screen and (max-width: 767px) {
   .about-me-paragraph {
-    width: 300px;
+    width: 275px;
   }
 }

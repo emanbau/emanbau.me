@@ -31,7 +31,7 @@ function Home() {
                 <img className={css(styles.logo)} src={logo} alt='logo'/>
                 <div className={css(styles.landingTextContainer)}>
                     <h1 className='heading'>Hey, I'm <span className='bold'>Eman</span>.</h1>
-                    <p className='paragraph'>I’m a <span className='bold' ref={typedComponentRef} /> <br/> focusing on helping others build <br/> <span className="bold">meaningful</span> experiences. </p>
+                    <div className='paragraph'>I’m a <span className='bold' ref={typedComponentRef} /> <br /> focusing on helping others build <span className="bold">meaningful</span> experiences. </div>
                     <a href='https://www.upwork.com/freelancers/~0144c5c1dc348b1f32' target="_blank" rel="noreferrer noopener" className='button'>Hire Me!</a>
                 </div>
                 <div className={css(styles.nav)}>
