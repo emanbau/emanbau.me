@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
+.home-page {
+  height: 200vh;
+}
+
 .landing-page-container {
   overflow: hidden;
   height: 100vh;
@@ -8,8 +12,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
@@ -28,7 +33,7 @@
 
 @media screen and (max-width: 767px) {
   .heading {
-    font-size: 23px;
+    font-size: 21px;
   }
 }
 
@@ -46,7 +51,7 @@
 
 @media screen and (max-width: 767px) {
   .paragraph {
-    font-size: 20px;
+    font-size: 21px;
   }
 }
 
@@ -65,6 +70,149 @@
 
 @media screen and (max-width: 767px) {
   .button {
+    font-size: 20px;
+  }
+}
+
+.item1 {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.item1:hover .bars {
+  transform: scaleX(1.5);
+}
+
+.item1:hover .nav-title {
+  transform: translateX(-12.5px);
+}
+
+.item2:hover .bars {
+  transform: scaleX(1.5);
+}
+
+.item2:hover .nav-title {
+  transform: translateX(-12.5px);
+}
+
+.item2 {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-title {
+  font-family: "Karla", sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  text-decoration: none;
+  color: #1f1f1f;
+  transition: transform 200ms;
+}
+
+.bars {
+  width: 50px;
+  height: 1px;
+  background-color: #1f1f1f;
+  margin-left: 1em;
+  transition: transform 200ms;
+}
+
+.about-me {
+  height: 1080px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.eman-photo {
+  width: 300px;
+  height: auto;
+}
+
+.about-me-text-container {
+  font-family: "Karla", sans-serif;
+  color: #1f1f1f;
+  margin-left: 2em;
+}
+
+.about-me-heading {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.about-me-paragraph {
+  width: 500px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.bold2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .eman-photo {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .about-me-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .about-me-paragraph {
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .bold2 {
+    font-size: 18spx;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me-content-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .eman-photo {
+    margin-bottom: 2em;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me-text-container {
+    margin-top: 2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me-paragraph {
+    width: 300px;
   }
 }
