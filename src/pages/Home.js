@@ -10,7 +10,7 @@ function Home() {
 
     useEffect(() => {
         const options = {
-            strings: ['ui/ux designer', 'web developer', 'node.js hero', 'certified lover boy'],
+            strings: ['web developer', 'ui/ux designer', 'student', 'React enthusiast', 'certified lover boy'],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
