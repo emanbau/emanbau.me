@@ -36,7 +36,7 @@ function Home() {
                 </div>
                 <div className={css(styles.nav)}>
                     <div className='item1'>
-                        <a className='nav-title'>Work</a>
+                        <a href='https://www.upwork.com/freelancers/~0144c5c1dc348b1f32' target="_blank" rel="noreferrer noopener" className='nav-title'>Work</a>
                         <div className='bars'/>
                     </div>
                     <div className='item2'>
