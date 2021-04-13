@@ -22,7 +22,9 @@ function Home() {
             smartBackspace: false,
         }
 
-        new Typed(typedComponentRef.current, options)
+        const typed = new Typed(typedComponentRef.current, options)
+
+        return () => typed.destroy();
     }, [typedComponentRef])
 
     return (
